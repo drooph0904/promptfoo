@@ -6,17 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [0.121.16](https://github.com/promptfoo/promptfoo/compare/0.121.15...0.121.16) (2026-06-09)
 
-
 ### Bug Fixes
 
-* address AI quality findings ([#9637](https://github.com/promptfoo/promptfoo/issues/9637)) ([c54a306](https://github.com/promptfoo/promptfoo/commit/c54a30668ad8319d76c20ae96e6680ad6c51a2c6))
-* **assertions:** respect inverse when an object value can't parse output as JSON ([#9626](https://github.com/promptfoo/promptfoo/issues/9626)) ([052a4e1](https://github.com/promptfoo/promptfoo/commit/052a4e1e3ebf62818243cac3cdd6987546dcc052))
-* **build:** make biome Style Check run deterministically (fix stack-overflow no-op) + fix unmasked lint errors ([#9631](https://github.com/promptfoo/promptfoo/issues/9631)) ([836733f](https://github.com/promptfoo/promptfoo/commit/836733ff89e1388b3193b31d308b858eadc72bc4))
-* **ci:** update architecture edge baseline for evalTableUtils CSV imports ([#9633](https://github.com/promptfoo/promptfoo/issues/9633)) ([ea3348e](https://github.com/promptfoo/promptfoo/commit/ea3348e3d1ff72fd7dabb02787b709561a41068f))
-* **deps:** update anthropic packages ([#9634](https://github.com/promptfoo/promptfoo/issues/9634)) ([d932250](https://github.com/promptfoo/promptfoo/commit/d932250ac0d40abf59a0540ed2d860e01a046e8c))
-* **deps:** update anthropic packages ([#9651](https://github.com/promptfoo/promptfoo/issues/9651)) ([4fcaa87](https://github.com/promptfoo/promptfoo/commit/4fcaa87067fefd4279a597cceb03dc3834fc5924))
-* **eval:** escape CSV formula injection in result exports ([#9609](https://github.com/promptfoo/promptfoo/issues/9609)) ([c039bff](https://github.com/promptfoo/promptfoo/commit/c039bffb23fcc4bb36d5fe38daea119f8cd30645))
-* **eval:** restore CSV export architecture boundary ([#9630](https://github.com/promptfoo/promptfoo/issues/9630)) ([7aaa3ed](https://github.com/promptfoo/promptfoo/commit/7aaa3ed9e8c917411808aa351190e13f33d1bef5))
+- address AI quality findings ([#9637](https://github.com/promptfoo/promptfoo/issues/9637)) ([c54a306](https://github.com/promptfoo/promptfoo/commit/c54a30668ad8319d76c20ae96e6680ad6c51a2c6))
+- **assertions:** respect inverse when an object value can't parse output as JSON ([#9626](https://github.com/promptfoo/promptfoo/issues/9626)) ([052a4e1](https://github.com/promptfoo/promptfoo/commit/052a4e1e3ebf62818243cac3cdd6987546dcc052))
+- **build:** make biome Style Check run deterministically (fix stack-overflow no-op) + fix unmasked lint errors ([#9631](https://github.com/promptfoo/promptfoo/issues/9631)) ([836733f](https://github.com/promptfoo/promptfoo/commit/836733ff89e1388b3193b31d308b858eadc72bc4))
+- **ci:** update architecture edge baseline for evalTableUtils CSV imports ([#9633](https://github.com/promptfoo/promptfoo/issues/9633)) ([ea3348e](https://github.com/promptfoo/promptfoo/commit/ea3348e3d1ff72fd7dabb02787b709561a41068f))
+- **deps:** update anthropic packages ([#9634](https://github.com/promptfoo/promptfoo/issues/9634)) ([d932250](https://github.com/promptfoo/promptfoo/commit/d932250ac0d40abf59a0540ed2d860e01a046e8c))
+- **deps:** update anthropic packages ([#9651](https://github.com/promptfoo/promptfoo/issues/9651)) ([4fcaa87](https://github.com/promptfoo/promptfoo/commit/4fcaa87067fefd4279a597cceb03dc3834fc5924))
+- **eval:** escape CSV formula injection in result exports ([#9609](https://github.com/promptfoo/promptfoo/issues/9609)) ([c039bff](https://github.com/promptfoo/promptfoo/commit/c039bffb23fcc4bb36d5fe38daea119f8cd30645))
+- **eval:** restore CSV export architecture boundary ([#9630](https://github.com/promptfoo/promptfoo/issues/9630)) ([7aaa3ed](https://github.com/promptfoo/promptfoo/commit/7aaa3ed9e8c917411808aa351190e13f33d1bef5))
 
 ## [0.121.15](https://github.com/promptfoo/promptfoo/compare/0.121.14...0.121.15) (2026-06-05)
 
